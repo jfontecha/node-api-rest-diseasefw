@@ -17,4 +17,4 @@ var nutritional_valuesSchema = new Schema({
   calories:			{ type: Number }
 });
 
-module.exports = mongoose.model('food', foodSchema);
+module.exports = mongoose.model('Food', foodSchema);
